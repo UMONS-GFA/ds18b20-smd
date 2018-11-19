@@ -19,7 +19,7 @@ U 1 1 5BF2C05C
 P 4000 3050
 F 0 "U1" H 3659 3096 50  0000 R CNN
 F 1 "DS18B20Z" H 3659 3005 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3000 2800 50  0001 C CNN
+F 2 "kicad-gfa local:SOIC-8-N" H 3000 2800 50  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 3850 3300 50  0001 C CNN
 	1    4000 3050
 	1    0    0    -1  
@@ -59,41 +59,41 @@ DQ
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5BF2C592
-P 5300 2800
-F 0 "H2" V 5300 2950 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5345 2950 50  0001 L CNN
-F 2 "" H 5300 2800 50  0001 C CNN
-F 3 "~" H 5300 2800 50  0001 C CNN
-	1    5300 2800
+P 5050 2750
+F 0 "H2" V 5050 2900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 2900 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5050 2750 50  0001 C CNN
+F 3 "~" H 5050 2750 50  0001 C CNN
+	1    5050 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5BF2C5C0
-P 5300 2600
-F 0 "H1" V 5300 2750 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5400 2560 50  0001 L CNN
-F 2 "" H 5300 2600 50  0001 C CNN
-F 3 "~" H 5300 2600 50  0001 C CNN
-	1    5300 2600
+P 5050 2550
+F 0 "H1" V 5050 2700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5150 2510 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5050 2550 50  0001 C CNN
+F 3 "~" H 5050 2550 50  0001 C CNN
+	1    5050 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5BF2C61E
-P 5300 3000
-F 0 "H3" V 5300 3150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5345 3150 50  0001 L CNN
-F 2 "" H 5300 3000 50  0001 C CNN
-F 3 "~" H 5300 3000 50  0001 C CNN
-	1    5300 3000
+P 5050 2950
+F 0 "H3" V 5050 3100 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 3100 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5050 2950 50  0001 C CNN
+F 3 "~" H 5050 2950 50  0001 C CNN
+	1    5050 2950
 	0    1    1    0   
 $EndComp
-Text GLabel 5200 2600 0    50   Input ~ 0
+Text GLabel 4950 2550 0    50   Input ~ 0
 VCC
-Text GLabel 5200 2800 0    50   Input ~ 0
+Text GLabel 4950 2750 0    50   Input ~ 0
 DQ
-Text GLabel 5200 3000 0    50   Input ~ 0
+Text GLabel 4950 2950 0    50   Input ~ 0
 GND
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -117,4 +117,43 @@ F 3 "~" H 2900 3400 50  0001 C CNN
 	1    2900 3400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5BF2D6A2
+P 5100 3500
+F 0 "H5" V 5100 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5145 3650 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5100 3500 50  0001 C CNN
+F 3 "~" H 5100 3500 50  0001 C CNN
+	1    5100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5BF2D6A9
+P 5100 3300
+F 0 "H4" V 5100 3450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5200 3260 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5100 3300 50  0001 C CNN
+F 3 "~" H 5100 3300 50  0001 C CNN
+	1    5100 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5BF2D6B0
+P 5100 3700
+F 0 "H6" V 5100 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5145 3850 50  0001 L CNN
+F 2 "project_footprints:CONN_01x01_PAD" H 5100 3700 50  0001 C CNN
+F 3 "~" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	0    1    1    0   
+$EndComp
+Text GLabel 5000 3300 0    50   Input ~ 0
+VCC
+Text GLabel 5000 3500 0    50   Input ~ 0
+DQ
+Text GLabel 5000 3700 0    50   Input ~ 0
+GND
 $EndSCHEMATC
