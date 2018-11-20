@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ds18b20-smd-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -57,34 +58,34 @@ VCC
 Text GLabel 4300 3050 2    50   Input ~ 0
 DQ
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad DQ1
 U 1 1 5BF2C592
 P 5050 2750
-F 0 "H2" V 5050 2900 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5095 2900 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5050 2750 50  0001 C CNN
+F 0 "DQ1" V 5050 2900 50  0000 L CNN
+F 1 "Pad" V 5095 2900 50  0001 L CNN
+F 2 "project_footprints:PAD" H 5050 2750 50  0001 C CNN
 F 3 "~" H 5050 2750 50  0001 C CNN
 	1    5050 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad VCC1
 U 1 1 5BF2C5C0
 P 5050 2550
-F 0 "H1" V 5050 2700 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5150 2510 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5050 2550 50  0001 C CNN
+F 0 "VCC1" V 5050 2700 50  0000 L CNN
+F 1 "Pad" V 5150 2510 50  0001 L CNN
+F 2 "project_footprints:PAD" H 5050 2550 50  0001 C CNN
 F 3 "~" H 5050 2550 50  0001 C CNN
 	1    5050 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad GND1
 U 1 1 5BF2C61E
 P 5050 2950
-F 0 "H3" V 5050 3100 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5095 3100 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5050 2950 50  0001 C CNN
+F 0 "GND1" V 5050 3100 50  0000 L CNN
+F 1 "Pad" V 5095 3100 50  0001 L CNN
+F 2 "project_footprints:PAD" H 5050 2950 50  0001 C CNN
 F 3 "~" H 5050 2950 50  0001 C CNN
 	1    5050 2950
 	0    1    1    0   
@@ -96,10 +97,10 @@ DQ
 Text GLabel 4950 2950 0    50   Input ~ 0
 GND
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 5BF2CE97
 P 2900 2650
-F 0 "#FLG0101" H 2900 2725 50  0001 C CNN
+F 0 "#FLG01" H 2900 2725 50  0001 C CNN
 F 1 "PWR_FLAG" V 2900 2778 50  0000 L CNN
 F 2 "" H 2900 2650 50  0001 C CNN
 F 3 "~" H 2900 2650 50  0001 C CNN
@@ -107,53 +108,14 @@ F 3 "~" H 2900 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG02
 U 1 1 5BF2CEF1
 P 2900 3400
-F 0 "#FLG0102" H 2900 3475 50  0001 C CNN
+F 0 "#FLG02" H 2900 3475 50  0001 C CNN
 F 1 "PWR_FLAG" V 2900 3528 50  0000 L CNN
 F 2 "" H 2900 3400 50  0001 C CNN
 F 3 "~" H 2900 3400 50  0001 C CNN
 	1    2900 3400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 5BF2D6A2
-P 5100 3500
-F 0 "H5" V 5100 3650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5145 3650 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5100 3500 50  0001 C CNN
-F 3 "~" H 5100 3500 50  0001 C CNN
-	1    5100 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5BF2D6A9
-P 5100 3300
-F 0 "H4" V 5100 3450 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5200 3260 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5100 3300 50  0001 C CNN
-F 3 "~" H 5100 3300 50  0001 C CNN
-	1    5100 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 5BF2D6B0
-P 5100 3700
-F 0 "H6" V 5100 3850 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5145 3850 50  0001 L CNN
-F 2 "project_footprints:CONN_01x01_PAD" H 5100 3700 50  0001 C CNN
-F 3 "~" H 5100 3700 50  0001 C CNN
-	1    5100 3700
-	0    1    1    0   
-$EndComp
-Text GLabel 5000 3300 0    50   Input ~ 0
-VCC
-Text GLabel 5000 3500 0    50   Input ~ 0
-DQ
-Text GLabel 5000 3700 0    50   Input ~ 0
-GND
 $EndSCHEMATC
