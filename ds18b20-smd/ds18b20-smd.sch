@@ -63,7 +63,7 @@ U 1 1 5BF2C592
 P 5050 2750
 F 0 "DQ1" V 5050 2900 50  0000 L CNN
 F 1 "Pad" V 5095 2900 50  0001 L CNN
-F 2 "project_footprints:PAD" H 5050 2750 50  0001 C CNN
+F 2 "project_footprints:PAD3mmx5mm" H 5050 2750 50  0001 C CNN
 F 3 "~" H 5050 2750 50  0001 C CNN
 	1    5050 2750
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 5BF2C5C0
 P 5050 2550
 F 0 "VCC1" V 5050 2700 50  0000 L CNN
 F 1 "Pad" V 5150 2510 50  0001 L CNN
-F 2 "project_footprints:PAD" H 5050 2550 50  0001 C CNN
+F 2 "project_footprints:PAD3mmx5mm" H 5050 2550 50  0001 C CNN
 F 3 "~" H 5050 2550 50  0001 C CNN
 	1    5050 2550
 	0    1    1    0   
@@ -85,7 +85,7 @@ U 1 1 5BF2C61E
 P 5050 2950
 F 0 "GND1" V 5050 3100 50  0000 L CNN
 F 1 "Pad" V 5095 3100 50  0001 L CNN
-F 2 "project_footprints:PAD" H 5050 2950 50  0001 C CNN
+F 2 "project_footprints:PAD3mmx5mm" H 5050 2950 50  0001 C CNN
 F 3 "~" H 5050 2950 50  0001 C CNN
 	1    5050 2950
 	0    1    1    0   
